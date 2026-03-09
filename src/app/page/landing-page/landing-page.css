@@ -180,10 +180,10 @@ nav {
 .searchBar-input {
     position: relative;
     left: 10px;
-    /* background: transparent;
+    background: transparent;
     border: none;
     outline: none;
-    font-size: 16px; */
+    font-size: 16px;
     width: 350px;
 }
 
@@ -297,6 +297,123 @@ nav {
 .btn-search:hover{
     background-color: #333;
     cursor: pointer;
+}
+
+.hero {
+    max-width: 1400px;
+    margin: 28px auto 0;
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.hero-kicker {
+    color: #c89563;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.hero-content h1 {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 4rem);
+    line-height: 1.1;
+    color: #171717;
+    font-family: 'Playfair Display', serif;
+}
+
+.hero-text {
+    margin: 0;
+    color: #454545;
+    font-size: 1rem;
+    line-height: 1.7;
+    max-width: 580px;
+}
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 8px;
+}
+
+.hero-btn {
+    border: none;
+    border-radius: 999px;
+    padding: 12px 24px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.hero-btn:hover {
+    transform: translateY(-2px);
+}
+
+.hero-btn-primary {
+    background: linear-gradient(135deg, #d4a574, #c89563);
+    color: #fff;
+    box-shadow: 0 8px 20px rgba(200, 149, 99, 0.35);
+}
+
+.hero-btn-outline {
+    background: #fff;
+    color: #1a1a1a;
+    border: 1.5px solid #1a1a1a;
+}
+
+.hero-media {
+    position: relative;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15);
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+@media (max-width: 1080px) {
+    .navbar {
+        padding: 0 20px;
+    }
+
+    .hero {
+        padding: 0 20px;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        margin-top: 16px;
+        gap: 20px;
+    }
+
+    .hero-actions {
+        width: 100%;
+    }
+
+    .hero-btn {
+        flex: 1;
+        min-width: 170px;
+    }
 }
 .btn-search:active{
     transform: scale(1.05);
