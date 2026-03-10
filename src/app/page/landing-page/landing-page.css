@@ -176,10 +176,17 @@ nav {
     align-items: center;
     justify-content: space-around;
 }
+.searchBar:focus-within{
+    box-shadow: 0 0 0px #c89563,
+        0 0 2px #c89563,
+        0 0 4px #c89563,
+        0 0 6px #c89563;
+    transition: box-shadow 0.3s ease-in-out;;
+}
 
 .searchBar-input {
     position: relative;
-    left: 10px;
+    left: -25px;
     background: transparent;
     border: none;
     outline: none;
@@ -287,12 +294,12 @@ nav {
 }
 
 .btn-search{
-    position: relative;
-    left: 7px;
+    position: absolute;
     padding: 4px 15px 4px 15px;
     background-color:black;
     color: aliceblue;
     border-radius: 30px;
+    right: 4px;
 }
 .btn-search:hover{
     background-color: #333;
@@ -360,6 +367,8 @@ nav {
 }
 
 .hero-btn:hover {
+    color: aliceblue;
+    background-color: #333;
     transform: translateY(-2px);
 }
 

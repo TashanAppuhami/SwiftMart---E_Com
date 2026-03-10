@@ -49,7 +49,7 @@
     margin-bottom: 8px;
     font-size: 28px;
     font-weight: 700;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #faba75, #c89563);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -91,7 +91,7 @@
 }
 
 .input-group input:focus {
-    border-color: #667eea;
+    border-color: #d4a574;
     background: white;
 }
 
@@ -100,7 +100,7 @@
     top: -9px;
     left: 10px;
     font-size: 12px;
-    color: #667eea;
+    color: #d4a574;
     background: white;
     padding: 0 5px;
 }
@@ -115,7 +115,7 @@
 }
 
 .options a {
-    color: #667eea;
+    color: #c89563;
     text-decoration: none;
 }
 
@@ -129,7 +129,7 @@ button[type="submit"] {
     margin-top: 8px;
     border: none;
     border-radius: 10px;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #faba75, #c89563);
     color: white;
     font-weight: 600;
     font-size: 15px;
@@ -174,7 +174,12 @@ button[type="submit"]:active {
 }
 
 .signup a {
-    color: #667eea;
+    color: #c89563;
     font-weight: bold;
     text-decoration: none;
+}
+
+.signup a:hover{
+    color:  #8a633d;
+    text-decoration: underline;
 }

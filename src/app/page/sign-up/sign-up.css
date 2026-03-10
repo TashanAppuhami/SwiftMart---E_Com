@@ -47,7 +47,7 @@
     margin-bottom: 8px;
     font-size: 28px;
     font-weight: 700;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #faba75, #c89563);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -95,7 +95,7 @@
 }
 
 .input-group input:focus {
-    border-color: #667eea;
+    border-color: #faba75;
     background: white;
     box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
 }
@@ -105,7 +105,7 @@
     top: -10px;
     left: 12px;
     font-size: 12px;
-    color: #667eea;
+    color: #faba75;
     background: white;
     padding: 0 6px;
     font-weight: 600;
@@ -113,11 +113,11 @@
 
 /* Password strength indicator */
 .input-group input[type="password"]:focus {
-    border-color: #764ba2;
+    border-color: #faba75;
 }
 
 .input-group input[type="password"]:focus + label {
-    color: #764ba2;
+    color: #faba75;
 }
 
 /* Button */
@@ -127,7 +127,7 @@ button[type="submit"] {
     margin-top: 8px;
     border: none;
     border-radius: 10px;
-    background: linear-gradient(135deg, #667eea, #764ba2);
+    background: linear-gradient(135deg, #faba75, #c89563);
     color: white;
     font-weight: 600;
     font-size: 15px;
@@ -166,18 +166,18 @@ button[type="submit"]:active {
 /* Bottom Text */
 .bottom-text {
     margin-top: 20px;
-    font-size: 13px;
+    font-size: 14px;
     color: #666;
 }
 
-.bottom-text a {
-    color: #667eea;
+.bottom-text a{
+    color:  #c89563;
     font-weight: 600;
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
 .bottom-text a:hover {
-    color: #764ba2;
+    color:  #8a633d;
     text-decoration: underline;
 }
